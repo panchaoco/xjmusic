@@ -27,7 +27,7 @@
   import {ERR_OK} from 'api/config'
   import Scroll from 'base/scroll/scroll'
   import loading from 'base/loading/loading'
-  import { playlistMixin } from 'common/js/mixin'
+  import {playlistMixin} from 'common/js/mixin'
   import {mapMutations} from 'vuex'
 
   export default {
