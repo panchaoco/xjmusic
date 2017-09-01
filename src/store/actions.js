@@ -56,6 +56,7 @@ export const insertSong = function ({commit, state}, song) {
     }
   }
 
+
   let currentSIndex = findIndex(sequencelist, currentSong) + 1
 
   let fsIndex = findIndex(sequencelist, song)
